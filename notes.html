@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Joseph's Notes</title>
+</head>
+
+<body>
+<div class="navigation-bar" id="top">
+  <div class="title">
+  	<h1>Programming Nanodegree</h1>
+  </div>
+    <ul>
+     <li class="menu">
+        <a href="#Basics">Basics</a>
+      </li>
+      <li class="menu">
+        <a href="#HTML">HTML</a>
+      </li>
+      <li class="menu">
+        <a href="#CSS">CSS</a>
+      </li>
+      <li class="menu">
+        <a href="#Python">Python</a>
+      </li>
+    </ul>
+</div>
+
+<div class="lesson-title" id="Basics">
+	<h2>The Basics of Programming</h2>
+  <div class="lesson-body">
+  	<h3>How Does The Internet Work?</h3>
+      <p>The internet is an interconnected network of computers that communicate with one another using Hyper Text Transfer Protocol, or 
+      <a href="https://www.udacity.com/course/viewer#!/c-nd000/l-3873828673/e-48329854/m-48480496">hyperlinks</a> for short.  Each time a web page is visited, the <em>computer</em> sends an <em>HTTP Request</em> to a <em>server</em>, a computer specifically designed to receive and send HTTP requests.  The server responds to the computer by sorting through 30 billion <em>HTML documents</em>, selecting the correct document and sending the information back to the computer which displays the document on a <em>web browser</em>, like Chrome or Firefox.</p>
+  </div>
+  <div class="lesson-body">
+  	<h3>What is HTML?</h3>
+      <p>HTML stand for <em>Hyper Text Markup Language</em>.  HTML documents are the core of of the internet and make up almost everything on the web.  HTML documents contain the text, images, and videos i.e. <em>text content</em>, as well as the format, i.e. <em>markup</em>, of a web page. </p>
+  </div>
+  <div class="lesson-body">
+    <h3>How to Structure an HTML Document</h3>
+      <p>Every time you begin writing a new coding document there are some basic pieces of information you need to include, such as the type of document and the coding language.  HTML5 simplifies much of this process, but programmers must still differentiate between the <em>head</em> and <em>body</em> of an HTML document.  The <em>head</em> will include the title of the document as well as any styling information, i.e. CSS and JavaScript.  The <em>body</em> will include all of the content, i.e. text, images, videos.</p>
+  </div>
+  <div class="lesson-body">
+  	<h3>What are Tags, Elements, and Attributes?</h3>
+      <p>HTML documents consist of <em>elements</em> that are organized by  <em>tags</em>.  Each element has an opening and closing tag with content in between.  Elements may be nested within eachother but it is best to close out elements as soon as they are finished.  Some tags also use <em>attributes</em> to further define values assigned to an element.  Attributes provide additional information about the elements and are always contained within the opening tag. Watch <a href="https://www.udacity.com/course/viewer#!/c-nd000/l-3873828673/m-48723444">this video</a> to review the basics of <em>elements</em> and <em>tags</em>.  Some examples follow below:</p>
+      <ol style="list-style-type: none; display: inline-block;">
+        <li><b>Tag</b></li>
+        <li>&lt;a&gt; - used for links</li>
+        <li>&lt;b&gt; - style as bold</li>
+        <li>&lt;em&gt; - style as italics</li>
+        <li>&lt;p&gt; - represents a paragraph of text</li>
+        <li>&lt;br&gt; - line break</li></ol>
+      <ol style="list-style-type: none; display: inline-block;">
+        <li><b>Attributes</b></li>
+        <li>&lt;href&gt; - used for links</li>
+        <li>&lt;src&gt; - source of image</li>
+        <li>&lt;alt&gt; - alternate text</li>
+        <li>&lt;lang&gt; - language</li>
+        <li>&lt;size&gt; - height and width</li>
+      </ol>
+  </div>
+  <div class="lesson-body">
+  	<h3>Explain the Difference Between Inline vs. Block Elements</h3>
+      <p>Every HTML element has a default display value, either <em>inline</em> or <em>block</em>.  An <b>inline</b> element takes up only as much width as the text it contains.  A <b>block</b> element always starts a new line and takes up the entire width of the line.  By using <em>attributes</em> such as style and class some design values may be assigned to elements within the body of the HTML document. Some examples follow below:</p>
+        <ul style="list-style-type: none; display: inline-block;">
+          <li><b>Block Elements</b></li>
+      		<li>&lt;div&gt; - basic container</li>
+      		<li>&lt;p&gt; - paragraph</li>
+      		<li>&lt;form&gt; - menu/drop down list</li>
+        	<li>&lt;h1-h6&gt; - headers</li>
+          <li>&lt;address&gt; - contact information</li>
+        </ul>
+        <ul style="list-style-type: none; display: inline-block;">
+          <li><b>Inline Elements</b></li>
+          <li>&lt;a&gt; - hyperlink</li>
+        	<li>&lt;span&gt; - container</li>
+        	<li>&lt;br&gt; - page break</li>
+        	<li>&lt;img&gt; - image</li>
+        	<li>&lt;strong&gt; - bold</li>
+        </ul>
+  </div>
+  <div class="lesson-body">
+  	<h3>What is Technological Empathy?</h3>
+      <p>Computers understand everything literally.  Since computers interpret everything so strictly they lack the ability to resolve small errors using critical thinking, and therefore may display something illogical because of a minor detail.  Programmers must learn to understand how computers process information to solve errors causedd by stupid computers.</p>
+  </div>
+</div>
+
+<div class="lesson-title" id="HTML">
+<h2>Creating a Structured HTML Document</h2>
+	<div class="lesson-body">
+		<h3>What is the purpose of HTML, CSS, and JS?</h3>
+		  <p>HTML, CSS, and JavaScript are unique languages with their own <b>syntax</b> and <b>rules</b> that allow web developers to build basic strucutre (HTML), implement design (CSS), and add interactive components (JS) to web pages.  HTML controls the structure of a web page while CSS controls the style, or how the web page looks.  HTML elements are either <b>inline</b> or <b>block</b>.  Block elements form an invisible box around the content.  Cascading Style Sheets (CSS) use syntax and rules to change the style of the boxes, such as font size, color, background, border, etc.  CSS allows programmers to assign <b>attributes</b> and <b>values</b> to HTML elements. In the example below, the tag is blue, the attribute is red, and the value is green.  HTML elements may have multiple classes.
+		  <p>&lt;<span style="color:blue">h1 </span><span style="color:red">class</span>="<span style="color:green">content</span>"&gt;text&lt;<span style=color:blue>h1</span>&gt;<br>&lt;<span style="color:blue">tag </span><span style="color:red">attribute</span>="<span style="color:green">value</span>"&gt;text&lt;<span style=color:blue>tag</span>&gt;</p>
+		  <p>Each value corresponds to a design element that can be applied universally to avoid repitition.  To tie structure and style together, the HTML document provides the browser with information about what style to use and where to get it from (style sheet).  Front End web developers use integrated web tools like <b>Developer Tools</b> in Chrome to gain insight and immediate feedback about how a web pages HTML and CSS are structured and/or designed.</p>
+	</div>
+	<div class="lesson-body">
+		<h3>Explain the Document Object Model</h3>
+		  <p>The Document Object Model is a universal interface for platforms and languages that allows programs and scripts to dynamically access and  update the content, structure, and style of documents. When programmers talk about DOM aka Document Object Model, they are referring to the tree structure of a web page.  When reading an HTML document as <em>text</em> the undulating indentations indicate where an object is located.  The further an object is indented the more deeply nested its corresponding box.  In a web browser, this structure shows up as a series of boxes within boxes.  To learn more about this concept check out <a href="https://en.wikipedia.org/wiki/Tree_structure">this link</a>.</p>
+			<img src="https://static.webplatform.org/w/public/8/89/traversing_the_dom_figure1.gif" alt="DOM Tree">
+  </div>
+	<div class="lesson-body">
+	 <h3>Boxes on Boxes on Boxes</h3>
+		  <p>The design philosophy behind programming revolves around the idea of boxes.  Boxes make up everything on a web page and programmers must visualize this concept in order to implement the content and style requested.  To apply style to one of these boxes, simply assign an element a <em>class</em> attribute, which is like the label on the box.  HTML tags may have multiple classes.  When approaching a new design always start with largest element (the web page) and work towards the smallest. When in doubt, sketch it out!</p>
+	</div>
+</div>
+
+<div class="lesson-title" id="CSS">
+  <h2>Creating a Cascading Style Sheet</h2>
+  <div class="lesson-body">
+    <h3>Understanding the Box Model</h3>
+      <p>Cascading, or the most specific rule applied, hints at the golden rule of CSS - <em>do <b>NOT</b> repeat yourself</em>.  Multiple CSS sheets may be used to determine the final design of an HTML document.  CSS relies on selectors to create multi-faceted designs and a wide range of styles.  Each element is a box and two selectors may be used to define an element.  In CSS, each element has four core adjustable parts (seen below): content, padding, border, and margin. Content and padding are affected by the background color of an element while border inherits color but margin remains translucent.</p>
+      <p>For more details on the Box Model <a href="http://www.w3schools.com/css/css_boxmodel.asp">click here</a>.</p>
+      <p><img src="images/box-model.gif" alt="Box Model" style="width:auto;height:auto"></p>
+  </div>
+  <div class="lesson-body">
+    <h3>Avoid Repition at ALL Costs!</h3>
+      <p>Don't Repeat Yourself (DRY). CSS allows programmers to determine the style of a webpage while practicing  the ethos of avoiding repitition.  Not repeating code enhances the maintainability of a webpage, making it simple and easy to make future changes or allow a new programmer to step in and pick up where another left off. More so, reducing repetition allows for code to function across applications and be re-used more readily.  Check out <a href="http://www.codereadability.com/reducing-repetition-in-html-templates/">this article</a> for a hands-on walk-thru highlighting the value of DRY.</p>
+      <p>To abolish repetition, programmers must understand the concept of inheritance.  Inheritance is a key feature of CSS. Inheritance relies on the document tree, which is the hierarchy of HTML elements in a page based on nesting.  Descendant, or child, elements may inherit CSS property values from any ancestor, or parent, element enclosing them. Generally, child elements inherit text-related properties, but not box-related properties.  Properties that can be inherited are color, font, letter-spacing, line-height, list-style, text-align, text-indent, text-transform, visibility, whitespace, and word-spacing.  Properties that cannot be inherited are background, border, display, float, clear, height, width, margin, minimum and maximum height, position, and align.  Learn more about inheritance <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#Inheritance">here</a>.</p>
+     <p> <img src="images/content-box-model.png" alt="Webpage Box Model" style="width:auto;height:auto"></p>
+  </div>
+  <div class="lesson-body">
+    <h3>What are some examples of CSS?</h3>
+      <p>CSS may seem overwhelming at first, it is one of the most powerful tools programmers have to set the style and create the design of a web page.  But don't worry! That's what the internet is for: simply look up the design qualities desired to find the correct CSS tools.  Learning to think critically and asking the right questions will prove more valuable than trying to memorize all the intricacies of CSS.  Understand the basics, then research the rest as problems arise!  For examples of CSS <a href="http://www.w3schools.com/css/css_examples.asp">click here</a>.</p>
+  </div>
+<div class="lesson-title" id="Python">
+  <h2>Python</h2>
+  <div class="lesson-body">
+    <h3>What is a variable</h3>
+      <p>This is one of the most important lessons you will take in this Nanodegree because it introduces one of the most important (and potentially confusing) topics in all of programming: the variable.  As you watch the next few segments, focus on these three questions (these questions could go into your notes web page): What is a variable? What does it mean to assign a value to a variable? What is the difference between what the equals = means in math versus in programming. What's the difference between this: 2 + 3 = 5 and this: my_variable = 5?  Also keep in mind that this is often the single most challenging concept for people learning to program. But If you ask questions and persevere, you will succeed.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <uL>
+      <li class="menu">
+        <a href="#top">Back to Top</a>
+      </li>
+      <li class="menu">
+        <a href="#Basics">Basics</a>
+      </li>
+      <li class="menu">
+        <a href="#HTML">HTML</a>
+      </li>
+      <li class="menu">
+        <a href="#CSS">CSS</a>
+      </li>
+      <li class="menu">
+        <a href="#Python">Python</a>
+      </li>
+  </uL>
+</div>
+  
+  </body>
+
+  </html>

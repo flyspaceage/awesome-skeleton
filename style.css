@@ -1,0 +1,80 @@
+.title {
+	font-size: 32px;
+    text-align: center;
+}
+
+.navigation-bar{
+	text-align: right;
+    background-color: black;
+    padding: 10px;
+    border: 10px;
+    margin-bottom: 20px;
+}
+
+.footer {
+	text-align: right;
+	background-color: black;
+	padding: 20px;
+	margin-top: 20px;
+
+}
+
+.lesson-title {
+	background-color: black;
+    color: black;
+}
+
+
+.lesson-body {
+	background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+
+.menu{
+    display: inline;
+    font-family: Phosphate;
+    color: #32cd32;
+    font-size: 28px;
+}
+
+h1 {
+	font-family: OCR a std;
+    color: #32cd32;
+}
+
+
+h2 {
+	font-family: Phosphate;
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color: black;
+    color: #32cd32
+}
+
+
+h3 {
+	font-family: Orator Std;
+	padding-top: 10px;
+	background-color: gray;
+	text-align: center;
+}
+
+
+p {
+    font-family: Times;
+}
+
+
+ul {
+	list-style-type: none;
+
+} 
+
+ol {
+    list-style-type: none;
+
+} 
+
